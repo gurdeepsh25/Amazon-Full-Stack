@@ -1,0 +1,68 @@
+.categories {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #232f3e;
+  top: 0;
+  z-index: 100;
+  color: #fff;
+}
+
+.categories__MenuIcon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.categories__MenuIcon:hover {
+  border: 1px solid;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.categories__text {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.categories__nav {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.categories__option {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding: 10px;
+  color: white;
+  white-space: nowrap;
+}
+
+.categories__option:hover {
+  border: 1px solid;
+  border-radius: 3px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.categories__downloadapp {
+  cursor: pointer;
+  padding-left: 185px;
+}
+
+.categories__downloadappImg {
+  height: 35px;
+}
+
+.categories__downloadappImg:hover {
+  border: 1px solid;
+  border-radius: 3px;
+}

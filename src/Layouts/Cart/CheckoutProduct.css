@@ -1,0 +1,56 @@
+.checkoutProduct {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.checkoutProduct__image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+
+.checkoutProduct__info {
+  padding-left: 20px;
+}
+
+.checkoutProduct__info > button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.checkoutProduct__title {
+  color: #232f3e;
+  font-size: 17px;
+  font-weight: 400;
+  width: 700px;
+}
+
+.checkoutProduct__price {
+  padding-left: 850px;
+  color: #232f3e;
+  font-size: 17px;
+  font-weight: 400;
+  width: 70px;
+}
+
+.checkoutProduct__rating {
+  display: flex;
+}
+
+.checkoutProduct__deleteButton {
+  font-size: 13px;
+  color: #4c9ba9;
+  cursor: pointer;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.checkoutProduct__deleteButton:hover {
+  text-decoration: underline;
+  color: #4c9ba9;
+}
