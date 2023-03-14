@@ -185,3 +185,176 @@
   margin-right: 10px;
   font-size: 12px;
 }
+
+@media (min-width: 571px) and (max-width: 671px) {
+  .header__logo {
+    margin: 0 8px;
+    margin-top: 5px;
+    padding: 5px;
+    padding-bottom: 2px;
+  }
+
+  .header__loc {
+    padding-left: -6px;
+    margin-right: 0px;
+    padding: 10px;
+  }
+
+  .header__loc:hover {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+  }
+
+  .header__locLineOne {
+    margin-bottom: -7px;
+    margin-left: 24px;
+    font-size: 8px;
+  }
+
+  .header__locLineTwo {
+    font-size: 11px;
+  }
+
+  .header__search {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  .header__searchIcon {
+    width: 25px !important;
+  }
+
+  .header__language {
+    margin: 0 4px;
+    margin-right: 0px;
+  }
+
+  .header__language select {
+    max-width: 42px;
+    font-size: 13px;
+  }
+
+  .header__option {
+    margin: 0 5px;
+    padding: 5px;
+  }
+
+  .header__optionLineOne {
+    font-size: 8px;
+  }
+
+  .header__optionLineTwo {
+    font-size: 12px;
+  }
+
+  .header__optionCart {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+  }
+
+  .header__cartCount {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 571px) {
+  .header__logo {
+    margin: 0 3px;
+    margin-top: 5px;
+    padding: 3px;
+    padding-bottom: 2px;
+  }
+
+  .header__logo:hover {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .header__loc {
+    display: none;
+  }
+
+  .header__search {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  .header__searchIcon {
+    width: 25px !important;
+  }
+
+  .header__language {
+    display: none;
+  }
+
+  .header__option {
+    margin: 0 4px;
+    padding: 4px;
+  }
+
+  .header__optionLineOne {
+    font-size: 8px;
+  }
+
+  .header__optionCart {
+    margin-left: 0px;
+    margin-right: 1px;
+    padding: 1px;
+  }
+
+  .header__cartCount {
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header__logo {
+    width: 60px;
+    margin: 0 1px;
+    margin-top: 5px;
+    padding: 0px;
+    padding-bottom: 2px;
+  }
+
+  .header__loc {
+    display: none;
+  }
+
+  .header__search {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  .header__searchIcon {
+    width: 20px !important;
+  }
+
+  .header__language {
+    display: none;
+  }
+
+  .header__option {
+    margin: 0 1px;
+    padding: 1px;
+  }
+
+  .header__optionLineOne {
+    font-size: 8px;
+  }
+
+  .header__optionCart {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 1px;
+  }
+
+  .header__cartCount {
+    margin-left: 1px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+}
