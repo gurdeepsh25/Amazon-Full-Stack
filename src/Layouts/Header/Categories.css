@@ -1,28 +1,29 @@
 .categories {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  background-color: #232f3e;
   top: 0;
   z-index: 100;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
   color: #fff;
+  background-color: #232f3e;
 }
 
 .categories__MenuIcon {
-  cursor: pointer;
   display: flex;
   align-items: center;
-  color: white;
-  margin-left: 10px;
   margin-right: 5px;
+  margin-left: 10px;
   padding: 5px;
+  color: white;
+  cursor: pointer;
 }
 
 .categories__MenuIcon:hover {
-  border: 1px solid;
-  border-radius: 3px;
   padding-top: 7px;
   padding-bottom: 7px;
+  border: 1px solid;
+  border-radius: 3px;
 }
 
 .categories__text {
@@ -31,31 +32,30 @@
 }
 
 .categories__nav {
-  cursor: pointer;
   display: flex;
   justify-content: space-evenly;
+  cursor: pointer;
 }
 
 .categories__option {
-  font-size: 14px;
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  padding: 10px;
-  color: white;
   white-space: nowrap;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
 }
 
 .categories__option:hover {
-  border: 1px solid;
-  border-radius: 3px;
   padding-top: 11px;
   padding-bottom: 11px;
+  border: 1px solid;
+  border-radius: 3px;
 }
 
 .categories__downloadapp {
-  cursor: pointer;
   padding-left: 185px;
+  cursor: pointer;
 }
 
 .categories__downloadappImg {

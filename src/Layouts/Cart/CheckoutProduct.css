@@ -16,26 +16,28 @@
 }
 
 .checkoutProduct__info > button {
-  background: #f0c14b;
-  border: 1px solid;
   margin-top: 10px;
+  border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29;
+  background: #f0c14b;
   color: #111;
 }
 
 .checkoutProduct__title {
-  color: #232f3e;
+  width: 100%;
+  max-width: 700px;
   font-size: 17px;
   font-weight: 400;
-  width: 700px;
+  color: #232f3e;
 }
 
 .checkoutProduct__price {
-  padding-left: 850px;
-  color: #232f3e;
+  width: 100%;
+  max-width: 70px;
+  margin-left: auto;
   font-size: 17px;
   font-weight: 400;
-  width: 70px;
+  color: #232f3e;
 }
 
 .checkoutProduct__rating {
@@ -43,14 +45,73 @@
 }
 
 .checkoutProduct__deleteButton {
+  cursor: pointer;
   font-size: 13px;
   color: #4c9ba9;
-  cursor: pointer;
-  padding-top: 70px;
-  padding-bottom: 20px;
+  margin-left: auto;
+  padding-top: 30px;
 }
 
 .checkoutProduct__deleteButton:hover {
   text-decoration: underline;
   color: #4c9ba9;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkoutProduct {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .checkoutProduct__title {
+    max-width: 100%;
+    padding: 20px 0;
+  }
+
+  .checkoutProduct__image {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .checkoutProduct__price {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .checkoutProduct {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .checkoutProduct__image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  .checkoutProduct__info {
+    padding: 10px;
+  }
+
+  .checkoutProduct__title {
+    max-width: 100%;
+    padding: 20px 0;
+    font-size: 16px;
+  }
+
+  .checkoutProduct__price {
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .checkoutProduct__deleteButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
 }
