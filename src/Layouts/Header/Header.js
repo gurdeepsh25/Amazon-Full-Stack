@@ -14,6 +14,7 @@ import logo from "../../assets/logo.png";
 
 function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
+
   const handleAuthentication = () => {
     if (user) {
       auth.signOut();
@@ -23,8 +24,9 @@ function Header() {
   return (
     <div className="header">
       <Link to="/">
-        <img className="header__logo" src={logo} alt="" />
+        <img src={logo} alt="Logo" className="header__logo" />
       </Link>
+
       <div className="header__loc">
         <span className="header__locLineOne">Hello</span>
         <span className="header__locLineTwo">
@@ -32,11 +34,12 @@ function Header() {
           Select Address
         </span>
       </div>
-      <div className="header__search">
-        <input className="header__searchInput" type="text" />
 
+      <div className="header__search">
+        <input type="text" className="header__searchInput" />
         <SearchIcon className="header__searchIcon" />
       </div>
+
       <div className="header__language">
         <select>
           <option value="en">EN - English</option>
@@ -44,19 +47,24 @@ function Header() {
           <option value="mr">MR - Marathi: मराठी</option>
         </select>
       </div>
+
       <div className="header__nav">
         <Link to={!user && "/login"}>
-          <div onClick={handleAuthentication} className="header__option">
-            <span className="header__optionLineOne">Hello Sign in</span>
+          <div className="header__option" onClick={handleAuthentication}>
+            <span className="header__optionLineOne">
+              Hello {user ? user.email : "Sign in"}
+            </span>
             <span className="header__optionLineTwo">
               {user ? "Sign Out" : "Sign In"}
             </span>
           </div>
         </Link>
+
         <div className="header__option">
-          <span className="header__optionLineOne">Return</span>
-          <span className="header__optionLineTwo">Orders</span>
+          <span className="header__optionLineOne">Returns</span>
+          <span className="header__optionLineTwo">& Orders</span>
         </div>
+
         <Link to="/checkout">
           <div className="header__optionCart">
             <ShoppingCartIcon />
