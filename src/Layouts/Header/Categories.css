@@ -54,7 +54,7 @@
 }
 
 .categories__downloadapp {
-  padding-left: 185px;
+  padding-left: 710px;
   cursor: pointer;
 }
 
@@ -65,4 +65,163 @@
 .categories__downloadappImg:hover {
   border: 1px solid;
   border-radius: 3px;
+}
+
+@media (min-width: 1662px) and (max-width: 1669px) {
+  .categories__downloadapp {
+    padding-left: 460px;
+  }
+}
+
+@media (min-width: 1623px) and (max-width: 1662px) {
+  .categories__downloadapp {
+    padding-left: 420px;
+  }
+}
+
+@media (min-width: 1553px) and (max-width: 1623px) {
+  .categories__downloadapp {
+    padding-left: 350px;
+  }
+}
+
+@media (min-width: 1522px) and (max-width: 1553px) {
+  .categories__downloadapp {
+    padding-left: 300px;
+  }
+}
+
+@media (min-width: 1436px) and (max-width: 1522px) {
+  .categories__downloadapp {
+    padding-left: 250px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1436px) {
+  .categories__downloadapp {
+    padding-left: 200px;
+  }
+}
+
+@media (min-width: 1335px) and (max-width: 1400px) {
+  .categories__downloadapp {
+    padding-left: 150px;
+  }
+}
+
+@media (min-width: 1335px) and (max-width: 1335px) {
+  .categories__downloadapp {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 1236px) and (max-width: 1300px) {
+  .categories__downloadapp {
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 1195px) and (max-width: 1236px) {
+  .categories__downloadapp {
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1195px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    padding-left: 600px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    padding-left: 550px;
+  }
+}
+
+@media (min-width: 874px) and (max-width: 1000px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    padding-left: 450px;
+  }
+}
+
+@media (min-width: 804px) and (max-width: 874px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    padding-left: 380px;
+  }
+}
+
+@media (min-width: 724px) and (max-width: 804px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    padding-left: 300px;
+  }
+}
+
+@media (min-width: 644px) and (max-width: 724px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    padding-left: 220px;
+  }
+}
+
+@media (min-width: 574px) and (max-width: 644px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    padding-left: 150px;
+  }
+}
+
+@media (min-width: 557px) and (max-width: 574px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 474px) and (max-width: 557px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 429px) and (max-width: 474px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    padding-left: 5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 429px) {
+  .categories__option {
+    display: none;
+  }
+  .categories__downloadapp {
+    display: none;
+  }
 }

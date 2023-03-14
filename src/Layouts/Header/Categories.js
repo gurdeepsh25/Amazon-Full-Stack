@@ -10,16 +10,11 @@ const categories = [
   "Sell",
   "Amazon miniTV",
   "Best Sellers",
-  "Mobiles",
   "Customer Service",
   "Today's Deals",
-  "Electronics",
   "Prime",
   "Amazon Pay",
-  "Fashion",
   "New Releases",
-  "Home & Kitchen",
-  "Beauty & Personal Care",
 ];
 
 function Categories() {
