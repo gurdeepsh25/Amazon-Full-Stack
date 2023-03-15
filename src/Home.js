@@ -143,8 +143,8 @@ function Home() {
             <img src={Home_décor_picks_from_local_shops} alt="" />
           </div>
         </div>
-        <div className="home__mobiles">
-          <h1>Bestselling Smatrphones</h1>
+        <div className="home__row">
+  
           <div className="home__row">
             <Product
               id={1}
@@ -183,8 +183,8 @@ function Home() {
             />
           </div>
         </div>
-        <div className="home__speakers">
-          <h1>Bestselling Speakers</h1>
+        <div className="home__row">
+         
           <div className="home__row">
             <Product
               id={6}

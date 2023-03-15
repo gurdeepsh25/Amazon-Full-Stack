@@ -1,60 +1,110 @@
+/* Default styles */
 .product {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
-  width: 220px;
+  width: 100%;
+  max-width: auto;
   max-height: 400px;
   margin: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
-  border-radius: 10px;
-  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 0.375rem;
+  border: 0.063rem solid #ddd;
   background-color: #fff;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 0.938rem rgba(0, 0, 0, 0.2);
 }
 
 .product:hover {
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
-  transform: translateY(-3px);
+  box-shadow: 0px 0px 2.5rem rgba(0, 0, 0, 0.8);
+  transform: translateY(-0.188rem);
 }
 
 .product__info {
-  padding-top: 0px;
-  font-size: 14px;
+  padding-top: 0;
+  font-size: 0.875rem;
   color: #666;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .product__price {
-  margin-top: 5px;
+  margin-top: 0.313rem;
 }
 
 .product__rating {
   display: flex;
 }
 
+
 .product > img {
-  max-height: 200px;
+  max-height: 12.5rem;
   max-width: 100%;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .product > button {
   background-color: #ffd814;
   color: #111;
   border: none;
-  border-radius: 4px;
-  padding: 8px 15px;
-  font-size: 12px;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.938rem;
+  font-size: 0.75rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.product > button:hover {
-  background-color: #f7ca00;
+@media (max-width: 1704px) {
+  .product {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: auto;
+    max-height: 400px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 0.375rem;
+    border: 0.063rem solid #ddd;
+    background-color: #fff;
+    box-shadow: 0px 0px 0.938rem rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 1392px) {
+ 
+}
+
+@media (max-width: 1215px) {
+  
+}
+
+@media (max-width: 1080px) {
+ 
+}
+
+@media (max-width: 768px) {
+ 
+}
+
+@media (max-width: 480px) {
+  
+}
+
+@media (max-width: 455px) {
+  .product {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 122%;
+    max-height: 400px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 0.375rem;
+    border: 0.063rem solid #ddd;
+    background-color: #fff;
+    box-shadow: 0px 0px 0.938rem rgba(0, 0, 0, 0.2);
+  }
 }
