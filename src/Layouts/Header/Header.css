@@ -186,34 +186,24 @@
   font-size: 12px;
 }
 
-@media (min-width: 571px) and (max-width: 671px) {
+@media (max-width: 768px) {
   .header__logo {
-    margin: 0 8px;
-    margin-top: 5px;
-    padding: 5px;
-    padding-bottom: 2px;
+    width: 80px;
+    margin: 0 15px;
   }
 
   .header__loc {
-    padding-left: -6px;
-    margin-right: 0px;
-    padding: 10px;
+    margin-left: -20px;
+    margin-right: 4px;
+    padding: 8px;
   }
 
   .header__loc:hover {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 0px;
+    padding-left: 1px;
   }
 
   .header__locLineOne {
     margin-bottom: -7px;
-    margin-left: 24px;
-    font-size: 8px;
-  }
-
-  .header__locLineTwo {
-    font-size: 11px;
   }
 
   .header__search {
@@ -222,17 +212,22 @@
   }
 
   .header__searchIcon {
-    width: 25px !important;
+    width: 30px !important;
   }
 
   .header__language {
-    margin: 0 4px;
-    margin-right: 0px;
+    margin: 0 5px;
+    margin-right: 5px;
+  }
+
+  .header__language :hover {
+    padding-top: 13px;
+    padding-bottom: 13px;
   }
 
   .header__language select {
     max-width: 42px;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .header__option {
@@ -240,38 +235,106 @@
     padding: 5px;
   }
 
-  .header__optionLineOne {
-    font-size: 8px;
-  }
-
-  .header__optionLineTwo {
-    font-size: 12px;
-  }
-
   .header__optionCart {
-    margin-left: 5px;
+    margin-left: 4px;
     margin-right: 5px;
-    padding: 5px;
   }
 
   .header__cartCount {
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 10px;
   }
 }
 
-@media (min-width: 480px) and (max-width: 571px) {
+@media (max-width: 668px) {
   .header__logo {
-    margin: 0 3px;
-    margin-top: 5px;
-    padding: 3px;
-    padding-bottom: 2px;
+    width: 60px;
+    margin: 0 10px;
+    margin-top: 10px;
+    padding-bottom: 6px;
   }
 
   .header__logo:hover {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+  }
+
+  .header__loc {
+    margin-left: -18px;
+    margin-right: 1px;
+    padding: 8px;
+  }
+
+  .header__locLineOne {
+    margin-bottom: -7px;
+    font-size: 9px;
+  }
+
+  .header__locLineTwo {
+    margin-bottom: 5px;
+    font-size: 11px;
+  }
+
+  .header__LocationOnIcon {
+    height: 18px !important;
+  }
+
+  .header__searchIcon {
+    width: 30px !important;
+  }
+
+  .header__language {
+    margin: 0 5px;
+    margin-right: 5px;
+  }
+
+  .header__language :hover {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .header__language select {
+    max-width: 40px;
+    font-size: 13px;
+  }
+
+  .header__option {
+    margin: 0 3px;
+    padding: 3px;
+  }
+
+  .header__optionLineOne {
+    font-size: 9px;
+  }
+
+  .header__optionLineTwo {
+    font-size: 11px;
+  }
+
+  .header__optionCart {
+    margin-left: 1px;
+    margin-right: 4px;
+    padding: 3px;
+  }
+
+  .header__cartCount {
+    margin-left: 2px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 568px) {
+  .header__logo {
+    width: 50px;
+    margin: 0 8px;
+    margin-top: 5px;
+    padding-bottom: 2px;
+    padding-right: 1px;
+  }
+
+  .header__logo:hover {
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   .header__loc {
@@ -280,7 +343,7 @@
 
   .header__search {
     margin-right: 2px;
-    margin-left: 2px;
+    margin-left: 1px;
   }
 
   .header__searchIcon {
@@ -291,70 +354,17 @@
     display: none;
   }
 
-  .header__option {
-    margin: 0 4px;
-    padding: 4px;
-  }
-
-  .header__optionLineOne {
-    font-size: 8px;
-  }
-
   .header__optionCart {
     margin-left: 0px;
-    margin-right: 1px;
-    padding: 1px;
-  }
-
-  .header__cartCount {
-    margin-right: 5px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .header__logo {
-    width: 60px;
-    margin: 0 1px;
-    margin-top: 5px;
-    padding: 0px;
-    padding-bottom: 2px;
-  }
-
-  .header__loc {
-    display: none;
-  }
-
-  .header__search {
-    margin-right: 2px;
-    margin-left: 2px;
-  }
-
-  .header__searchIcon {
-    width: 20px !important;
-  }
-
-  .header__language {
-    display: none;
-  }
-
-  .header__option {
-    margin: 0 1px;
-    padding: 1px;
-  }
-
-  .header__optionLineOne {
-    font-size: 8px;
-  }
-
-  .header__optionCart {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 1px;
+    margin-right: 3px;
+    padding: 2px;
   }
 
   .header__cartCount {
     margin-left: 1px;
-    margin-right: 5px;
-    font-size: 12px;
+    margin-right: 12px;
   }
+}
+
+@media (max-width: 480px) {
 }
