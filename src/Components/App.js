@@ -6,6 +6,7 @@ import "./App.css";
 import Home from "../Home";
 import Login from "../Layouts/Login/Login";
 import Header from "../Layouts/Header/Header";
+import Footer from "../Layouts/Footer/Footer";
 import Checkout from "../Layouts/Cart/Checkout";
 import Categories from "../Layouts/Header/Categories";
 
@@ -61,6 +62,7 @@ function App() {
                 <Header />
                 <Categories />
                 <Home />
+                <Footer />
               </>
             }
           ></Route>
