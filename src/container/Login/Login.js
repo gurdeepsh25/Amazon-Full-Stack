@@ -4,10 +4,10 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
 
 import firebase from "firebase/compat/app";
-import { auth } from "../../Services/Firebase/Firebase";
-import { UserContext } from "../../Services/Utils/UserContext";
-import { StateProvider } from "../../Services/Utils/StateProvider";
-import reducer, { initialState } from "../../Services/Reducers/reducer";
+import { auth } from "../../services/Firebase/Firebase";
+import { UserContext } from "../../services/Utils/UserContext";
+import { StateProvider } from "../../services/Utils/StateProvider";
+import reducer, { initialState } from "../../services/Reducers/reducer";
 
 import logo_login from "../../assets/logo_login.png";
 

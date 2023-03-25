@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import "./Header.css";
 
-import { auth } from "../../Services/Firebase/Firebase";
-import { useStateValue } from "../../Services/Utils/StateProvider";
+import { auth } from "../../services/Firebase/Firebase";
+import { useStateValue } from "../../services/Utils/StateProvider";
 
 import SearchIcon from "@mui/icons-material/Search";
 import LocationOnIcon from "@mui/icons-material/LocationOn";

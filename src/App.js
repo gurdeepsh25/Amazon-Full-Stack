@@ -10,8 +10,8 @@ import Footer from "./container/Footer/Footer";
 import Checkout from "./container/Cart/Checkout";
 import Categories from "./container/Header/Categories";
 
-import { auth } from "./Services/Firebase/Firebase";
-import { useStateValue } from "./Services/Utils/StateProvider";
+import { auth } from "./services/Firebase/Firebase";
+import { useStateValue } from "./services/Utils/StateProvider";
 
 function App() {
   const [{}, dispatch] = useStateValue();

@@ -4,7 +4,7 @@ import "./Checkout.css";
 import Subtotal from "./Subtotal";
 import CheckoutProduct from "./CheckoutProduct";
 
-import { useStateValue } from "../../Services/Utils/StateProvider";
+import { useStateValue } from "../../services/Utils/StateProvider";
 
 function Checkout() {
   const [{ basket, user }] = useStateValue();

@@ -2,7 +2,7 @@ import React from "react";
 
 import "./CheckoutProduct.css";
 
-import { useStateValue } from "../../Services/Utils/StateProvider";
+import { useStateValue } from "../../services/Utils/StateProvider";
 
 function CheckoutProduct({ id, image, title, price, rating }) {
   const [, dispatch] = useStateValue();

@@ -5,10 +5,10 @@ import "./index.css";
 
 import App from "./App";
 
-import { UserContext } from "./Services/Utils/UserContext";
-import { StateProvider } from "./Services/Utils/StateProvider";
-import reportWebVitals from "./Services/Utils/reportWebVitals";
-import reducer, { initialState } from "./Services/Reducers/reducer";
+import { UserContext } from "./services/Utils/UserContext";
+import { StateProvider } from "./services/Utils/StateProvider";
+import reportWebVitals from "./services/Utils/reportWebVitals";
+import reducer, { initialState } from "./services/Reducers/reducer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
