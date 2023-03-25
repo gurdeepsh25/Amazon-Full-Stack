@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import "./index.css";
 
-import App from "./Components/App";
+import App from "./App";
 
 import { UserContext } from "./Services/Utils/UserContext";
 import { StateProvider } from "./Services/Utils/StateProvider";

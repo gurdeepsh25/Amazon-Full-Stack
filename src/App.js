@@ -3,15 +3,15 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
-import Home from "../Home";
-import Login from "../Layouts/Login/Login";
-import Header from "../Layouts/Header/Header";
-import Footer from "../Layouts/Footer/Footer";
-import Checkout from "../Layouts/Cart/Checkout";
-import Categories from "../Layouts/Header/Categories";
+import Home from "./container/Home/Home";
+import Login from "./container/Login/Login";
+import Header from "./container/Header/Header";
+import Footer from "./container/Footer/Footer";
+import Checkout from "./container/Cart/Checkout";
+import Categories from "./container/Header/Categories";
 
-import { auth } from "../Services/Firebase/Firebase";
-import { useStateValue } from "../Services/Utils/StateProvider";
+import { auth } from "./Services/Firebase/Firebase";
+import { useStateValue } from "./Services/Utils/StateProvider";
 
 function App() {
   const [{}, dispatch] = useStateValue();
