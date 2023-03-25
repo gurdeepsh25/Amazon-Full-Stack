@@ -77,7 +77,7 @@ function Home() {
           </div>
           <div className="mProducts">
             <h1>Up to 70% off | Clearance store & more</h1>
-            <img src={images.Clearance_storeClearance_store} alt=""></img>
+            <img src={images.Clearance_store} alt=""></img>
             <p>See more</p>
           </div>
           <div className="mProducts">
