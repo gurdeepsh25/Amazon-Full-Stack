@@ -1,0 +1,54 @@
+.payment {
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.payment__container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 490;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+  padding: 15px;
+}
+
+.payment__container > h1 a {
+  text-decoration: none;
+}
+
+.payment__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payment__titleno {
+  flex: 0.05;
+}
+
+.payment__title {
+  flex: 0.2;
+}
+
+.payment__address,
+.payment__items {
+  flex: 0.75;
+}
+
+.payment__address > p {
+  font-size: 13px;
+  padding: 2px;
+}
+
+.orangeColorHoverUnderLine {
+  color: #4c9ba9;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.orangeColorHoverUnderLine:hover {
+  text-decoration: underline;
+  color: #d47a07;
+}

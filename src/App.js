@@ -7,6 +7,7 @@ import Home from "./container/Home/Home";
 import Login from "./container/Login/Login";
 import Header from "./container/Header/Header";
 import Footer from "./container/Footer/Footer";
+import Payment from "./container/Cart/Payment";
 import Checkout from "./container/Cart/Checkout";
 import Categories from "./container/Header/Categories";
 
@@ -52,6 +53,15 @@ function App() {
                 <Header />
                 <Categories />
                 <Checkout />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/payment"
+            element={
+              <>
+                <Header />
+                <Payment />
               </>
             }
           ></Route>
