@@ -8,18 +8,24 @@ import Login from "./container/Login/Login";
 import Header from "./container/Header/Header";
 import Footer from "./container/Footer/Footer";
 import Payment from "./container/Cart/Payment";
+import Orders from "./container/Orders/Orders";
 import Checkout from "./container/Cart/Checkout";
 import Categories from "./container/Header/Categories";
 
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 import { auth } from "./services/Firebase/Firebase";
 import { useStateValue } from "./services/Utils/StateProvider";
+
+const promise = loadStripe(
+  "pk_test_51MpW2CSAPhAgw38R98eJojobn05yMdem6M8yGVGoItBZinqvIDRTyYQWOTg9tkovBD3IJuSOjWKvGzLlcUuYTJ2A00ocvaf5Et"
+);
 
 function App() {
   const [{}, dispatch] = useStateValue();
   useEffect(() => {
     // will only run once when the app is loaded
     auth.onAuthStateChanged((authUser) => {
-      console.log("The User is >>>>", authUser);
       if (authUser) {
         dispatch({
           type: "SET_USER",
@@ -38,6 +44,16 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
+          <Route
+            path="/orders"
+            element={
+              <>
+                <Header />
+                <Categories />
+                <Orders />
+              </>
+            }
+          ></Route>
           <Route
             path="/login"
             element={
@@ -61,7 +77,9 @@ function App() {
             element={
               <>
                 <Header />
-                <Payment />
+                <Elements stripe={promise}>
+                  <Payment />
+                </Elements>
               </>
             }
           ></Route>
