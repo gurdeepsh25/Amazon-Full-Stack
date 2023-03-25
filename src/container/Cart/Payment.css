@@ -53,3 +53,35 @@
   text-decoration: underline;
   color: #d47a07;
 }
+
+.payment__details > form {
+  max-width: 400px;
+}
+
+.payment__details > h4 {
+  padding-bottom: 20px;
+}
+
+.payment__details > form > div > button {
+  width: 240px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-color: #a88734 #9c7e31 #846a29;
+  background: #ffd814;
+  color: #111;
+  cursor: pointer;
+}
+
+.payment__details > form > div > button:hover {
+  background-color: #f7ca00;
+}
+
+.payment__priceContainer > h3 {
+  margin-top: 20px;
+}
