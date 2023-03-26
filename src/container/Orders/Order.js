@@ -11,6 +11,7 @@ function Order({ order }) {
       <h2>Order</h2>
       <p>{moment.unix(order.data.created).format("MMMM Do YYYY, h:mma")}</p>
       <p className="order__id">
+        <h5>Order ID:</h5>
         <small>{order.id}</small>
       </p>
       {order.data.basket?.map((item) => (
