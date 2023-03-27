@@ -28,7 +28,9 @@ function Header() {
       </Link>
 
       <div className="header__loc">
-        <span className="header__locLineOne">Hello</span>
+        <span className="header__locLineOne">
+          Deliver to {user ? user.email : ""}
+        </span>
         <span className="header__locLineTwo">
           <LocationOnIcon className="header__LocationOnIcon" />
           Select Address

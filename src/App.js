@@ -11,6 +11,7 @@ import Payment from "./container/Cart/Payment";
 import Orders from "./container/Orders/Orders";
 import Checkout from "./container/Cart/Checkout";
 import Categories from "./container/Header/Categories";
+import HomeAppliances from "./container/Products/Home Appliances/HomeAppliances";
 
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
@@ -44,6 +45,16 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
+          <Route
+            path="/homeAppliances"
+            element={
+              <>
+                <Header />
+                <Categories />
+                <HomeAppliances />
+              </>
+            }
+          ></Route>
           <Route
             path="/orders"
             element={

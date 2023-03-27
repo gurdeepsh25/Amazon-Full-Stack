@@ -53,6 +53,10 @@
   transition: all 0.3s ease;
 }
 
+.product > button:hover {
+  background-color: #f7ca00;
+}
+
 @media (max-width: 1704px) {
   .product {
     z-index: 1;

@@ -1,0 +1,21 @@
+.homeappliances {
+    padding: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.homeappliances__row {
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.homeappliances__row > h3 {
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.homeappliances__products {
+    display: flex;
+}

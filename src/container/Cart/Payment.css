@@ -1,6 +1,6 @@
 .payment {
   background-color: white;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 .payment__container > h1 {

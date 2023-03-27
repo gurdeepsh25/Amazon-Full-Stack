@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Product from "../Products/Product";
 
-import { images } from '../../constants';
+import { images } from "../../constants";
 
 function Home() {
   // Function for ImageSlider (Amazon Homepage)
@@ -72,7 +72,13 @@ function Home() {
         <div className="home__row">
           <div className="mProducts">
             <h1>Home appliances | Up to 50% off</h1>
-            <img src={images.Home_appliances} alt="Home appliances on sale"></img>
+            <Link to="/homeAppliances">
+              <img
+                className="mProducts__link"
+                src={images.Home_appliances}
+                alt="Home appliances on sale"
+              ></img>
+            </Link>
             <p>See more</p>
           </div>
           <div className="mProducts">
@@ -122,7 +128,6 @@ function Home() {
           </div>
         </div>
         <div className="home__row">
-  
           <div className="home__row">
             <Product
               id={1}
@@ -162,7 +167,6 @@ function Home() {
           </div>
         </div>
         <div className="home__row">
-         
           <div className="home__row">
             <Product
               id={6}
