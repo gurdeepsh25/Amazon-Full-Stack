@@ -52,6 +52,7 @@ function App() {
                 <Header />
                 <Categories />
                 <HomeAppliances />
+                <Footer />
               </>
             }
           ></Route>
