@@ -21,7 +21,7 @@ body::-webkit-scrollbar:hover {
 body::-webkit-scrollbar-thumb {
   background: rgb(19,25,33);
   background: linear-gradient(27deg, rgba(19,25,33,1) 0%, rgba(254,189,105,1) 100%);
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 
