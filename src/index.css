@@ -8,9 +8,22 @@ body {
   font-family: "Amazon Ember", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
+
+body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+body::-webkit-scrollbar:hover {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(19,25,33);
+  background: linear-gradient(27deg, rgba(19,25,33,1) 0%, rgba(254,189,105,1) 100%);
+  border-radius: 4px;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
